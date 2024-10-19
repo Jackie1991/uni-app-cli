@@ -21,14 +21,6 @@
     "types": ["@dcloudio/types"],
     "ignoreDeprecations": "5.0"
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "types/**/*.d.ts",
-    "types/**/*.ts",
-    "vite.config.ts"
-  ],
-  "exclude": ["dist", "**/*.js"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "types/**/*.d.ts", "types/**/*.ts", "vite.config.ts"],
+  "exclude": ["node_modules", "dist", "src/**/*.js"]
 }
